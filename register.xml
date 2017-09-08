@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText,TextFields" >
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:hint="first name"
+        android:ems="10" />
+
+    
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:hint="middle name"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:hint="last name"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="mobile number"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="please type valid e-mail"
+        android:ems="10"
+        android:inputType="textEmailAddress" >
+
+        <requestFocus android:layout_width="wrap_content" />
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password minimum 8 character"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="re_enter password"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="mm/yy/dd"
+        android:ems="10"
+        android:inputType="date" />
+
+    <DatePicker
+        android:id="@+id/datePicker1"
+        android:layout_width="53dp"
+        android:layout_height="38dp" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="door_no,street,city,state"
+        android:inputType="textPostalAddress" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="industry name that you have to  create"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="201dp"
+        android:layout_height="wrap_content"
+        android:text="sign in" />
+
+</LinearLayout>
